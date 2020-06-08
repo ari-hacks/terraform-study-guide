@@ -11,7 +11,7 @@ Study Guide for the Terraform Associate Certification
   - [ ] 4.[Use the Terraform CLI (outside of core workflow)](/Subcommands/terraform-cli.md)
   - [ ] 5. [Interact with Terraform modules](/Modules/modules.md)
   - [ ] 6. [Navigate Terraform workflow](/Workflow/workflow.md)
-  - [ ] 7. [Implement and maintain state](/)
+  - [ ] 7. [Implement and maintain state](/State/manage-state.md)
   - [ ] 8. [Read, generate, and modify configuration](/HCL%20(HashiCorp%20Config%20Language)/hcl-features.md)
   - [ ] 9. [Understand Terraform Cloud and Enterprise capabilities](/Cloud%20and%20Enterprise/cloud-and-enterprise.md)
 

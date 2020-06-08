@@ -1,5 +1,5 @@
 
-#### Objective 6: Navigate Terraform workflow
+## Objective 6: Navigate Terraform workflow
 
 <details><summary>Describe Terraform workflow ( Write -> Plan -> Create )</summary>
 <p>
