@@ -12,8 +12,8 @@ Study Guide for the Terraform Associate Certification
   - [ ] 5. [Interact with Terraform modules](/Modules/modules.md)
   - [ ] 6. [Navigate Terraform workflow](/Workflow/workflow.md)
   - [ ] 7. [Implement and maintain state](/)
-  - [ ] 8. Read, generate, and modify configuration
-  - [ ] 9. Understand Terraform Cloud and Enterprise capabilities
+  - [ ] 8. [Read, generate, and modify configuration](/HCL%20(HashiCorp%20Config%20Language)/hcl-features.md)
+  - [ ] 9. [Understand Terraform Cloud and Enterprise capabilities](/Cloud%20and%20Enterprise/cloud-and-enterprise.md)
 
 
 ## Additional Info 
