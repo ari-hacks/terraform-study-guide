@@ -5,7 +5,7 @@ Study Guide for the Terraform Associate Certification
 
   - [x] 1. [Understand Infrastructure as Code (IaC) concepts](/IaC%20Basics/Iac.md)
 
-  - [ ] 2. [Understand Terraform's purpose (vs other IaC)](/IaC%20Basics/Iac.md)
+  - [x] 2. [Understand Terraform's purpose (vs other IaC)](/IaC%20Basics/Iac.md)
 
   - [ ] 3. [Understand Terraform basics](/Manage%20%20infrastructure/terraform-basics.md)
   - [ ] 4.[Use the Terraform CLI (outside of core workflow)](/Subcommands/terraform-cli.md)
@@ -15,6 +15,7 @@ Study Guide for the Terraform Associate Certification
   - [ ] 8. [Read, generate, and modify configuration](/HCL%20(HashiCorp%20Config%20Language)/hcl-features.md)
   - [ ] 9. [Understand Terraform Cloud and Enterprise capabilities](/Cloud%20and%20Enterprise/cloud-and-enterprise.md)
 
+-------------------------------
 
 ## Additional Info 
 - The exam will be on Terraform 0.12.0 and higher. 
