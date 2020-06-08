@@ -1,6 +1,4 @@
-## Understanding Terraform Basics
-
-#### Objective 3: Understand Terraform basics
+## Objective 3: Understand Terraform basics
 
 [HashiCorp Terraform Tutorial](https://learn.hashicorp.com/terraform?track=getting-started#getting-started)
 <details><summary>Providers</summary>

@@ -1,5 +1,5 @@
 
-#### Objective 4: Use the Terraform CLI (outside of core workflow)
+## Objective 4: Use the Terraform CLI (outside of core workflow)
 
 <details><summary>Given a scenario: choose when to use terraform fmt to format code</summary>
 <p>

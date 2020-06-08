@@ -1,6 +1,4 @@
-## Infrastructure as a Code 
-
-#### Objective 1: Understand Infrastructure as Code (IaC) concepts
+## Objective 1: Understand Infrastructure as Code (IaC) concepts
 
 <details><summary>Explain What IaC is?</summary>
 <p>
