@@ -21,5 +21,5 @@ Study Guide for the Terraform Associate Certification
 - [Terraform Cloud Interactive Learning](https://www.katacoda.com/hashicorp/scenarios/terraform-cloud)
 - [Exam Review](https://learn.hashicorp.com/terraform/certification/terraform-associate-review)
   
-  NOTE: Most of this information comes directly from the [Hashicorp website](https://learn.hashicorp.com/terraform/certification/terraform-associate-study-guide) I've compiled the resources here for easy access and availability for review. 🙂
+  NOTE: Most of this information comes directly from the [Hashicorp website](https://learn.hashicorp.com/terraform/certification/terraform-associate-study-guide) I've compiled the resources here for accessibility and easy review. 🙂
 

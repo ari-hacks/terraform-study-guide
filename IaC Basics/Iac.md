@@ -26,6 +26,7 @@ IaC makes it easy to provision and apply infrastructure configurations, saving t
   -  The manual work is removed with Iac no more need for sys admins to remotely connect to each machine by executing a series of commands or scripts which can cause inconsistencies based on who executes it
 - **Iac makes changes predictable**:
   - code can be tested before applying it to production so results are always predictable 
+- **Iac allows for mutation in previously defined configurations, making for a more manageable system**:
 
 </details>
 
@@ -33,16 +34,30 @@ IaC makes it easy to provision and apply infrastructure configurations, saving t
 
 <details><summary>Explain multi-cloud and provider-agnostic benefits</summary>
 <p>
-
+Multi-cloud deployment increases fault tolerance. This means in the event of failure there is a more graceful recovery of a region or provider. 
 </p>
-
+<p>
+The benefits of being provider-agnostic means there can be a single configuration that manages many providers.
+</p>
 </details>
 
 
 <details><summary>Explain the benefits of state</summary>
-<p>
-
-</p>
+  
+- Mapping to the Real World 
+  - Terraform requires a database to map Tf(Terraform) config to the real world. 
+  ex. `resource "aws_instance" "foo"`  Tf knows the instance i-abcd34233 is represented by that resource. 
+- Metadata
+  - Tf tracks metadata or resource dependencies 
+  - Tf keeps a copy of the most recent set of dependencies in state. So that correct oder of operations can be executed even if an item is deleted from the configuration. 
+- Performance 
+  - besides basic mapping Tf also keeps a cache of attribute values for all resources in the state. 
+  - most optional feature of state, only used to improve performance. 
+  - small infra: for plan and apply Tf syncs all resources in state 
+  - large infra: cache state is used because of API rate limits and querying all resources is too slow. Large infra also make use of `-refresh=false` and `-target` flags
+- Syncing 
+  - default syncing Tf stores state in a file in the current working directory
+  - for teams remote state is used, remote locking is utilized to avoid multiple people running Tf at the same time.  
 
 </details>
 
