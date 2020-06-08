@@ -1,7 +1,6 @@
 ## Sample Questions 
-## collapsible markdown?
 
-<!-- <details><summary>CLICK ME</summary>
+<details><summary>CLICK ME</summary>
 <p>
 
 #### yes, even hidden code blocks!
@@ -9,4 +8,4 @@
 print("hello world!")
 ```
 </p>
-</details> -->
+</details>
