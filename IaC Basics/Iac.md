@@ -61,4 +61,19 @@ The benefits of being provider-agnostic means there can be a single configuratio
 
 </details>
 
+<details><summary>IaC with Terraform</summary>
 
+<p>
+At a high level, Terraform allows operators to use HCL to author files containing definitions of their desired resources on almost any provider (AWS, GCP, GitHub, Docker, etc) and automates the creation of those resources at the time of apply.
+</p>
+
+- **Workflows** 
+  - Scope: Establish resources that need to be created for the project 
+  - Author: Create the configuration based on the scoped parameters with HCL
+  - Initialize: run `terraform init`  to download the provider plug-ins for the project
+  - Plan & Apply: run `terraform plan` to verify creation then `terraform apply` to create the resources and state files 
+- **Advantages of Terraform**
+  - Platform Agnostic: allows for management of a mixed environment with the same workflow
+  - State Management: State files are created when a project is initialized. state is used to create plans and update your infrastructure. State determines how configuration changes are measured. When a change is made, those changes are compared with the state file to determine resource creation or changes  
+  - Operator Confidence: `terraform apply` allows for review before changes are applied.
+</details>
