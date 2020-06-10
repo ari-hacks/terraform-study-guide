@@ -106,24 +106,27 @@
 </details>
 
 <details><summary>Describe plug-in based architecture</summary>
-<p>
 
-</p>
+- Terraform is build on plug-in based architecture. Providers and provisioners used in configuration are plugins (AWS, Heroku). Anyone can create a new plugin. 
+[Build Infrastructure– Initialization](/https://learn.hashicorp.com/terraform/getting-started/build#initialization)
 
 </details>
 
+<details><summary>Demonstrate using multiple providers</summary>
+
+[Build Infrastructure– Providers](/https://learn.hashicorp.com/terraform/getting-started/build#providers)
+
+</details>
+</details>
 
 <details><summary>Describe how Terraform finds and fetches providers</summary>
-<p>
 
-</p>
+
 
 </details>
 
 <details><summary>Explain when to use and not use provisioners and when to use local-exec or remote-exec</summary>
-<p>
 
-</p>
 <details><summary>Provisioners are a Last Resort</summary>
 <p>
 
