@@ -141,7 +141,18 @@ terraform state
 <details><summary>Given a scenario: choose when to enable verbose logging and what the outcome/value is	</summary>
 <p>
 
-- 
+```BASH
+TF_LOG 
+#LOG LEVELS 
+TRACE 
+DEBUG 
+INFO
+WARN 
+ERROR 
+TF_LOG_PATH #Persist logged output 
+```
+- Trace is the most verbose and it is the default
+- If Terraform crashes a Crash log is saved with the debug logs with panic message and backtrace 
 </p>
 
 </details>
