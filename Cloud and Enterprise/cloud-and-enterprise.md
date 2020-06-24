@@ -5,7 +5,7 @@
 <p>
 
 - Sentinel
-  - An embedded policy as a code framework used with Enterprise products. Policies written in the [Sentinel language](https://docs.hashicorp.com/sentinel/writing/)
+  - An embedded [policy as a code](https://www.hashicorp.com/blog/why-policy-as-code/) framework used with Enterprise products. Policies written in the [Sentinel language](https://docs.hashicorp.com/sentinel/writing/)
   - Used for logic based policy decisions and can be extended to use information form external sources. 
   - ```tfe_sentinel_policy``` resource can be used to upload a policy using Terraform itself 
   - Sentinel can be used with Terraform Cloud as well by: 
@@ -15,9 +15,14 @@
     - Mocking Sentinel Terraform data -  Terraform Cloud provides the ability to generate mock data for any run within a workspace. This data can be used with the Sentinel CLI to test policies before deployment.
   
 
-Module Registry
+- Module Registry
+  - Private module registry helps you share Terraform modules with other organizations. 
+  - Support includes module versioning, search and filtering list of modules, and a configuration designer to build workspaces 
+  - Similar to the [public Registry](https://www.terraform.io/docs/registry/index.html)
+  - [Module Registry Announcement](https://www.hashicorp.com/blog/hashicorp-terraform-module-registry/)
 
-Workspaces	
+- Workspaces	
+  - 
 </p>
 
 </details>
