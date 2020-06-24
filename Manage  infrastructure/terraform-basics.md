@@ -19,7 +19,7 @@
 - Providers require their own configuration for regions, authentication etc. 
 - **Configuration** 
   - providers are configured with a provider block: 
-    ```
+    ```BASH
         provider "google" { 
         project = "acme-app"
         region  = "us-central1"
@@ -38,7 +38,7 @@
 - **Versions**
   - versions should be configured in production to avoid breaking changes 
   - the <code>required_providers</code> block should be used in the Tf block:
-    ```
+    ```BASH
       terraform {
          required_providers {
          aws = "~> 1.0"
@@ -50,7 +50,7 @@
 
 - **Multiple Provider Instances** 
   - you can have multiple configs for the same provider by using the alias meta-argument to allow for multiple regions per provider, targeting multiple Docker hosts, etc.
-     ```
+     ```BASH
       # The default provider configuration
         provider "aws" {
          region = "us-east-1"
@@ -69,7 +69,7 @@
 - **Plugin Cache**
   - terraform init downloads plugins into a subdirectory of the working directory so each working dir is self contained. This means with more than one configuration with the same provider has a separate copy of the plugin for each config 
   - plugins can be large so this isn't performant  - Tf allows for a shared local directory for plugin cache. This has to be manually created in the CLI Configuration File.
-       ```
+       ```BASH
       # (Note that the CLI configuration file is _not_ the same as the .tf files
       #  used to configure infrastructure.)
 
@@ -81,14 +81,14 @@
 
 - **Terraform Block Syntax**
   - only constant values can be used 
-       ```
+       ```BASH
         terraform {
         # ...
         }
        ```
 - **Configuring a Terraform Backend**
   - this determines how state is stored, how operations are performed, remote back-ends for teams etc. 
-    ```
+    ```BASH
     terraform {
         backend "s3" {
         # (backend-specific settings...)

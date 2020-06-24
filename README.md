@@ -8,7 +8,7 @@ Study Guide for the Terraform Associate Certification
   - [x] 2. [Understand Terraform's purpose (vs other IaC)](/IaC%20Basics/Iac.md)
 
   - [ ] 3. [Understand Terraform basics](/Manage%20%20infrastructure/terraform-basics.md)
-  - [ ] 4.[Use the Terraform CLI (outside of core workflow)](/Subcommands/terraform-cli.md)
+  - [x] 4.[Use the Terraform CLI (outside of core workflow)](/Subcommands/terraform-cli.md)
   - [ ] 5. [Interact with Terraform modules](/Modules/modules.md)
   - [ ] 6. [Navigate Terraform workflow](/Workflow/workflow.md)
   - [ ] 7. [Implement and maintain state](/State/manage-state.md)
