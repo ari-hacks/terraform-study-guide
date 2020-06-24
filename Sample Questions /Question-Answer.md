@@ -11,7 +11,7 @@
 <details><summary>
 Consider the following Terraform 0.12 configuration snippet:
 
-```
+```BASH
 variable "vpc_cidrs" {
   type = map
   default = {
