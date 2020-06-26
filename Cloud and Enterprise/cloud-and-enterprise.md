@@ -21,17 +21,27 @@
   - Similar to the [public Registry](https://www.terraform.io/docs/registry/index.html)
   - [Module Registry Announcement](https://www.hashicorp.com/blog/hashicorp-terraform-module-registry/)
 
-- Workspaces	
-  - 
+
+- Workspaces
+  - Using Workspaces is how Terraform Cloud organized infrastructure
+  - Workspaces are Collections of Infrastructure - usually organizations have to manage many collections. 
+  - Each collection contains a configuration, state data, and variables. 
+  - Terraform Cloud manages infrastructure collections with workspaces instead of directories. A workspace contains everything Terraform needs to manage a given collection of infrastructure, and separate workspaces function like completely separate working directories.
+  - [Terraform Enterprise: Understanding Workspaces And Modules](https://www.hashicorp.com/resources/terraform-enterprise-understanding-workspaces-and-modules/) 
+  - TODO: Elaborate more on Workspaces 
 </p>
 
 </details>
 
-<details><summary>Differentiate OSS and Terraform Cloud workspaces</summary>
+<details><summary>Differentiate OSS (Open Source Software) and Terraform Cloud workspaces</summary>
 <p>
-CLI Workspaces
 
-Enterprise/Cloud Workspaces	
+- CLI Workspaces 
+  - relates to persistent data stored in the backend, a feature for using one configuration to manage many similar grouped resources. 
+  - uses with a Terraform's command line interface: ```terraform workspace new bar```
+
+- Enterprise/Cloud Workspaces	
+  - Uses Workspaces to manage break up parts of a system 
 </p>
 
 </details>
