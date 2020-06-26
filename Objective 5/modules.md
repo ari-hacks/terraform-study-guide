@@ -5,7 +5,7 @@
 <p>
 
 - Module Overview 
-  - Definition - a set of configuration files in a single directory. 
+  - Definition - a set of configuration files in a single directory. A container for multiple resources that are used together.  
   - A module that is called by another configuration is sometimes referred to as a "child module" of that configuration.
   - Applications
     - Organize configuration - easier to navigate, understand, and update your configuration by keeping all related parts together. 
@@ -44,7 +44,8 @@ module "vpc" {
 
 <details><summary>Describe variable scope within modules/child modules</summary>
 <p>
- modules/child modules	Input Variables,Calling a Child Module
+
+- 
  </p>
 
 </details>
@@ -75,3 +76,14 @@ module "consul" {
 </p>
 
 </details>
+
+
+-------------------------------
+
+[⏮️](/Objective%204/terraform-cli.md) Objective 4
+ &nbsp;
+ ||
+ &nbsp;
+Objective 6 [⏩](/Objective%206/workflow.md)
+
+[🔙](/README.md) README

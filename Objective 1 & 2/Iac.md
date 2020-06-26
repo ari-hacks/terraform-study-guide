@@ -77,3 +77,9 @@ At a high level, Terraform allows operators to use HCL to author files containin
   - State Management: State files are created when a project is initialized. state is used to create plans and update your infrastructure. State determines how configuration changes are measured. When a change is made, those changes are compared with the state file to determine resource creation or changes  
   - Operator Confidence: `terraform apply` allows for review before changes are applied.
 </details>
+
+-------------------------------
+
+Objective 3 [⏩](/Objective%203/terraform-basics.md)
+
+[🔙](/README.md) README

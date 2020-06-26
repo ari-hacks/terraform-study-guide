@@ -87,3 +87,6 @@ Which flag is used to find more information about a Terraform command? For examp
 - [x]  --help
 </details>
 
+-------------------------------
+
+Return to [README.md](/README.md)

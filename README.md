@@ -14,7 +14,7 @@ Study Guide for the Terraform Associate Certification
   - [ ] 7. [Implement and maintain state](/Objective%207/manage-state.md)
   - [ ] 8. [Read, generate, and modify configuration](/Objective%208/hcl-features.md)
   - [x] 9. [Understand Terraform Cloud and Enterprise capabilities](/Objective%209/cloud-and-enterprise.md)
-
+ 
 -------------------------------
 
 ## Additional Info 

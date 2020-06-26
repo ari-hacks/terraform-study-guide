@@ -156,3 +156,13 @@ TF_LOG_PATH #Persist logged output
 </p>
 
 </details>
+
+-------------------------------
+
+[⏮️](/Objective%203/terraform-basics.md) Objective 3 
+ &nbsp;
+ ||
+ &nbsp;
+Objective 5 [⏩](/Objective%205/modules.md)
+
+[🔙](/README.md) README

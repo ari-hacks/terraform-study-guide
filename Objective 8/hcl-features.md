@@ -59,3 +59,13 @@ Resource Dependencies
 </p>
 
 </details>
+
+-------------------------------
+
+[⏮️](/Objective%207/manage-state.md) Objective 7 
+ &nbsp;
+ ||
+ &nbsp;
+Objective 9 [⏩](/Objective%209/cloud-and-enterprise.md)
+
+[🔙](/README.md) README
