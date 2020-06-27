@@ -45,7 +45,39 @@ module "vpc" {
 <details><summary>Describe variable scope within modules/child modules</summary>
 <p>
 
-- 
+- variables are parameters for modules 
+- variables allow you to customize modules without changing the source code and they allow for modules to be shared between different configurations. 
+- root module variables can be set with CLI and environment variables
+- When declaring variables in child modules, the calling module should pass values in the module block. 
+- Declaring a variable: 
+- variable names have to be unique per module 
+- any name can be used except for :source, version, providers, count,for_each,lifecycle,depends_on,locals
+  ```BASH 
+  variable "image_id" {
+  type = string  #defines what value types are accepted for the variable
+  }
+
+  variable "availability_zone_names" {
+  type    = list(string)
+  default = ["us-west-1a"]  #default means the variable is considered optional, used if no other value is set  when calling the module or running Terraform
+  }
+
+  variable "docker_ports" {
+  type = list(object({
+    internal = number
+    external = number
+    protocol = string
+  }))
+
+  default = [
+    {
+      internal = 8300
+      external = 8300
+      protocol = "tcp"
+    }
+  ]
+  } 
+  ```
  </p>
 
 </details>
