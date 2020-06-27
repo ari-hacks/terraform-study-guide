@@ -13,23 +13,23 @@
     - Re-use configuration - share and re-use modules with the public and teams 
     - Provide consistency and ensure best practices
   
-- module source options 
-  - we reference a public registry module by declaring the source. 
-```BASH
-  module "consul" {
-  #<NAMESPACE>/<NAME>/<PROVIDER>
-  source = "hashicorp/consul/aws"
-  version = "0.1.0"
-}
-```
- - Private Registry Module Sources follow this syntax 
-```BASH
-module "vpc" {
-  #<HOSTNAME>/<NAMESPACE>/<NAME>/<PROVIDER>
-  source = "app.terraform.io/example_corp/vpc/aws"
-  version = "0.9.3"
-}
-```
+- Module source options: 
+  - we reference a **Public Registry Module** by declaring the source. 
+  ```BASH
+   module "consul" {
+   #<NAMESPACE>/<NAME>/<PROVIDER>
+   source = "hashicorp/consul/aws"
+   version = "0.1.0"
+  }
+  ```
+  - **Private Registry Module** Sources follow this syntax 
+  ```BASH
+   module "vpc" {
+    #<HOSTNAME>/<NAMESPACE>/<NAME>/  <PROVIDER>
+    source = "app.terraform.io/example_corp/vpc/aws"
+    version = "0.9.3"
+  }
+  ```
 </p>
 
 </details>
@@ -101,7 +101,8 @@ module "vpc" {
   ami  = var.image_id #expression reads var.<NAME> name is the label declared on the variable
 }
   ```
-- we can assign 
+- Set root module variables 1) In Terraform Cloud Workspace 2) Individual CLI with ```-var``` 3) In ```.tfvars``` file 4) As environment variable
+- child modules have variables set in the configuration of the parent module  
  </p>
 
 </details>
