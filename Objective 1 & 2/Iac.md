@@ -3,7 +3,7 @@
 <details><summary>Explain What IaC is?</summary>
 <p>
 
-Infrastructure is described using a high-level configuration syntax. This allows a blueprint of your data center to be versioned and treated as you would any other code. Additionally, infrastructure can be shared and re-used. 
+Infrastructure is described using a high-level configuration syntax. This allows a blueprint of our data center to be versioned and treated as we would any other code. Additionally, infrastructure can be shared and re-used. 
 </p>
 <p>
 IaC makes it easy to provision and apply infrastructure configurations, saving time. It standardizes workflows across different infrastructure providers (e.g., VMware, AWS, Azure, GCP, etc.) by using a common syntax across all of them.
@@ -17,7 +17,7 @@ IaC makes it easy to provision and apply infrastructure configurations, saving t
 
 - Can be applied throughout the infrastructure lifecycle 
   - Day 0 : Initial Build 
-  - Day 1 : OS and application config you apply after the initial build. Includes OS updates, patches, app config. 
+  - Day 1 : OS and application config we apply after the initial build. Includes OS updates, patches, app config. 
 - Saves time by making it easy to provision and apply infrastructure configuration. Workflow is standardized across providers wether its VMWare, AWS, Azure, or GCP. 
 - It's easy to understand the intent of infrastructure changes. 
 - **Iac makes changes idempotent**:
@@ -74,7 +74,7 @@ At a high level, Terraform allows operators to use HCL to author files containin
   - Plan & Apply: run `terraform plan` to verify creation then `terraform apply` to create the resources and state files 
 - **Advantages of Terraform**
   - Platform Agnostic: allows for management of a mixed environment with the same workflow
-  - State Management: State files are created when a project is initialized. state is used to create plans and update your infrastructure. State determines how configuration changes are measured. When a change is made, those changes are compared with the state file to determine resource creation or changes  
+  - State Management: State files are created when a project is initialized. state is used to create plans and update our infrastructure. State determines how configuration changes are measured. When a change is made, those changes are compared with the state file to determine resource creation or changes  
   - Operator Confidence: `terraform apply` allows for review before changes are applied.
 </details>
 

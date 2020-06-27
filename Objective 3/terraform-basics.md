@@ -49,7 +49,7 @@
   -  to upgrade all modules run <code>terraform init -upgrade</code>
 
 - **Multiple Provider Instances** 
-  - you can have multiple configs for the same provider by using the alias meta-argument to allow for multiple regions per provider, targeting multiple Docker hosts, etc.
+  - we can have multiple configs for the same provider by using the alias meta-argument to allow for multiple regions per provider, targeting multiple Docker hosts, etc.
      ```BASH
       # The default provider configuration
         provider "aws" {

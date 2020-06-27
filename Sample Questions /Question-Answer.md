@@ -27,7 +27,7 @@ resource "aws_vpc" "shared" {
 }
 
 ```
-How would you define the `cidr_block` for us-east-1 in the `aws_vpc` resource using a variable?
+How would we define the `cidr_block` for us-east-1 in the `aws_vpc` resource using a variable?
 
 </summary>
 
@@ -39,8 +39,8 @@ How would you define the `cidr_block` for us-east-1 in the `aws_vpc` resource us
 
 <details>
 <summary>
-You have defined the values for your variables in the
-file <code>terraform.tfvars</code>, and saved it in the same directory as your Terraform configuration. Which of the following commands will use those values when creating an execution plan?
+We have defined the values for our variables in the
+file <code>terraform.tfvars</code>, and saved it in the same directory as our Terraform configuration. Which of the following commands will use those values when creating an execution plan?
 </summary>
 
 - [ ] Incorrect: <code>terraform plan</code>
@@ -66,14 +66,14 @@ Which of the following Terraform commands will automatically refresh the state u
 ### Question 5
 
 <details><summary>
-What happens when you apply Terraform configuration? Choose <b>TWO</b> correct answers.
+What happens when we apply Terraform configuration? Choose <b>TWO</b> correct answers.
 </summary>
 
-- [x] Correct: Terraform makes any infrastructure changes defined in your configuration.
+- [x] Correct: Terraform makes any infrastructure changes defined in our configuration.
 - [ ] Incorrect: Terraform gets the plugins that the configuration requires.
 - [x] Correct: Terraform updates the state file with any configuration changes it made.
-- [ ] Incorrect: Terraform corrects formatting errors in your configuration.
-- [ ] Incorrect: Terraform destroys and recreates all your infrastructure from scratch.
+- [ ] Incorrect: Terraform corrects formatting errors in our configuration.
+- [ ] Incorrect: Terraform destroys and recreates all our infrastructure from scratch.
 </details>
 
 ### Question 6
