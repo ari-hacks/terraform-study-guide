@@ -95,11 +95,11 @@
   }
   ```
 - Using variable values 
- ```BASH 
-  resource "aws_instance" "example" {
-  instance_type = "t2.micro"
-  ami  = var.image_id #expression reads var.<NAME> name is the label declared on the variable
-}
+  ```BASH 
+    resource "aws_instance" "example" {
+    instance_type = "t2.micro"
+    ami  = var.image_id #expression reads var.<NAME> name is the label declared on the variable
+  }
   ```
 - Set root module variables 1) In Terraform Cloud Workspace 2) Individual CLI with ```-var``` 3) In ```.tfvars``` file 4) As environment variable
 - child modules have variables set in the configuration of the parent module  
@@ -120,15 +120,15 @@
 <p>
 
 - Use the version attribute in the module block to specify versions:
-```BASH
-module "consul" {
-  source  = "hashicorp/consul/aws"
-  version = "0.0.5"  #single explicit version 
-  #or
-  version = >= 1.2.0  #version constraint expression 
+  ```BASH
+  module "consul" {
+    source  = "hashicorp/consul/aws"
+    version = "0.0.5"  #single explicit version 
+    #or
+    version = >= 1.2.0  #version constraint expression 
   servers = 3
-}
-```
+  }
+  ```
 
 </p>
 
