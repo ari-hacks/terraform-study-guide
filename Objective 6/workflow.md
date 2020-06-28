@@ -3,7 +3,13 @@
 
 <details><summary>Describe Terraform workflow ( Write -> Plan -> Create )</summary>
 <p>
-The Core Terraform Workflow
+
+- Write 
+  - Author infra as code 
+- Plan 
+  - Preview changes before applying
+- Create (Apply)
+  - Provision reproducible infra 
 </p>
 
 </details>
