@@ -5,11 +5,32 @@
 <p>
 
 - Write 
-  - Author infra as code 
+  - Author infrastructure as code 
 - Plan 
   - Preview changes before applying
 - Create (Apply)
-  - Provision reproducible infra 
+  - Provision reproducible infrastructure 
+- Configuration is written like any program, use version control to keep track of changes 
+    ```BASH 
+        # Create repository
+        $ git init my-infra && cd my-infra
+        Initialized empty Git repository in /.../my-infra/.git/
+        # Write initial config
+        $ vim main.tf
+        # Initialize Terraform
+        $ terraform init
+        Initializing provider plugins...
+        # ...
+        Terraform has been successfully initialized!
+    ```
+- running ```Terraform plan``` repeatedly is useful to make sure there are no syntax errors and the correct code is being written per the desired outcome.
+-  First run ```Terraform apply``` before pushing to git to make sure the provisions are correct 
+-  While working in teams it is best to use branches to avoid code collision. 
+   ```BASH
+   $ git checkout -b <branch-name>
+    Switched to a new branch <branch-name>
+   ``` 
+- Teams can review changes via Terraform plans and pull requests 
 </p>
 
 </details>
