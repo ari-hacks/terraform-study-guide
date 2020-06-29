@@ -12,16 +12,16 @@
   - Provision reproducible infrastructure 
 - Configuration is written like any program, use version control to keep track of changes 
     ```BASH 
-        # Create repository
-        $ git init my-infra && cd my-infra
-        Initialized empty Git repository in /.../my-infra/.git/
-        # Write initial config
-        $ vim main.tf
-        # Initialize Terraform
-        $ terraform init
-        Initializing provider plugins...
-        # ...
-        Terraform has been successfully initialized!
+    # Create repository
+    $ git init my-infra && cd my-infra
+    Initialized empty Git repository in /.../my-infra/.git/
+    # Write initial config
+    $ vim main.tf
+    # Initialize Terraform
+    $ terraform init
+    Initializing provider plugins...
+    # ...
+    Terraform has been successfully initialized!
     ```
 - running ```Terraform plan``` repeatedly is useful to make sure there are no syntax errors and the correct code is being written per the desired outcome.
 -  First run ```Terraform apply``` before pushing to git to make sure the provisions are correct 
@@ -31,6 +31,30 @@
     Switched to a new branch <branch-name>
    ``` 
 - **Teams** can review changes via Terraform plans and pull requests 
+- Terraform cloud helps streamline this process in a team setting
+  - Write - secure location for storing variables and state with the "remote" backend, then a Terraform Cloud API key is used to edit the configuration and run plans against the state file.
+  ```BASH
+    terraform {
+    backend "remote" {
+        organization = "my-org"
+        workspaces {
+        prefix = "my-app-"
+     }
+    }
+   }
+   #--------------------------------------
+   $ terraform workspace select my-app-dev
+   Switched to workspace "my-app-dev".
+   $ terraform plan
+   Running plan remotely in Terraform Enterprise.
+   Output will stream here. To view this plan in a browser, visit:
+   https://app.terraform.io/my-org/my-app-dev/.../
+   Refreshing Terraform state in-memory prior to plan...
+   # ...
+   Plan: 1 to add, 0 to change, 0 to destroy.
+  ```
+  - Plan - plans are automatically run when a pull request is created. Status updates are shown in the pull request view. 
+  - Apply - A confirm and apply is needed after merging to run an ```apply```. 
 </p>
 
 </details>
