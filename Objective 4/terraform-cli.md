@@ -86,7 +86,6 @@ terraform import
 terraform workspace
 terraform workspace select
 terraform workspace new
-
 ```
 - Terraform configuration has a backend that defines operations and where persistent data is stored ([state](https://www.terraform.io/docs/state/purpose.html))
 - Persistent data in the backend belongs to a workspace. 

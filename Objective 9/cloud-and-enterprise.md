@@ -4,7 +4,7 @@
 <details><summary>Describe the benefits of Sentinel, registry, and workspaces</summary>
 <p>
 
-- Sentinel
+- **Sentinel**
   - An embedded [policy as a code](https://www.hashicorp.com/blog/why-policy-as-code/) framework used with Enterprise products. Policies written in the [Sentinel language](https://docs.hashicorp.com/sentinel/writing/)
   - Used for logic based policy decisions and can be extended to use information form external sources. 
   - ```tfe_sentinel_policy``` resource can be used to upload a policy using Terraform itself 
@@ -15,14 +15,14 @@
     - Mocking Sentinel Terraform data -  Terraform Cloud provides the ability to generate mock data for any run within a workspace. This data can be used with the Sentinel CLI to test policies before deployment.
   
 
-- Module Registry
+- **Module Registry**
   - Private module registry helps us share Terraform modules with other organizations. 
   - Support includes module versioning, search and filtering list of modules, and a configuration designer to build workspaces 
   - Similar to the [public Registry](https://www.terraform.io/docs/registry/index.html)
   - [Module Registry Announcement](https://www.hashicorp.com/blog/hashicorp-terraform-module-registry/)
 
 
-- Workspaces
+- **Workspaces**
   - Using Workspaces is how Terraform Cloud organized infrastructure
   - Workspaces are Collections of Infrastructure - usually organizations have to manage many collections. 
   - Each collection contains a configuration, state data, and variables. 
@@ -35,11 +35,11 @@
 <details><summary>Differentiate OSS (Open Source Software) and Terraform Cloud workspaces</summary>
 <p>
 
-- CLI Workspaces 
+- **CLI Workspaces** 
   - relates to persistent data stored in the backend, a feature for using one configuration to manage many similar grouped resources. 
   - uses with a Terraform's command line interface: ```terraform workspace new bar```
 
-- Enterprise/Cloud Workspaces	
+- **Enterprise/Cloud Workspaces**	
   - Uses Workspaces to manage break up parts of a system 
 </p>
 
@@ -48,7 +48,7 @@
 <details><summary>Summarize features of Terraform Cloud</summary>
 <p>
 
-- Terraform Cloud
+- **Terraform Cloud**
   - [Terraform Cloud Pricing/Features](https://www.hashicorp.com/products/terraform/pricing/)
   - [Terraform Cloud Docs](https://www.terraform.io/docs/cloud/index.html)
   - Main Features

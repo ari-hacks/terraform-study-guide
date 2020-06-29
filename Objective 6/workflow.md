@@ -4,11 +4,11 @@
 <details><summary>Describe Terraform workflow ( Write -> Plan -> Create )</summary>
 <p>
 
-- Write 
+- **Write** 
   - Author infrastructure as code 
-- Plan 
+- **Plan** 
   - Preview changes before applying
-- Create (Apply)
+- **Create (Apply)**
   - Provision reproducible infrastructure 
 - Configuration is written like any program, use version control to keep track of changes 
     ```BASH 
@@ -30,7 +30,7 @@
    $ git checkout -b <branch-name>
     Switched to a new branch <branch-name>
    ``` 
-- Teams can review changes via Terraform plans and pull requests 
+- **Teams** can review changes via Terraform plans and pull requests 
 </p>
 
 </details>

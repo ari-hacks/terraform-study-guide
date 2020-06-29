@@ -4,16 +4,16 @@
 <details><summary>Contrast module source options</summary>
 <p>
 
-- Module Overview 
+- **Module Overview**
   - Definition - a set of configuration files in a single directory. A container for multiple resources that are used together.  
   - A module that is called by another configuration is sometimes referred to as a "child module" of that configuration.
-  - Applications
-    - Organize configuration - easier to navigate, understand, and update our configuration by keeping all related parts together. 
-    - Encapsulate configuration - put configuration into distinct logical components. Reduces chance of error. Ex/naming two diff resources the same thing. 
-    - Re-use configuration - share and re-use modules with the public and teams 
-    - Provide consistency and ensure best practices
+- **Applications**
+  - Organize configuration - easier to navigate, understand, and update our configuration by keeping all related parts together. 
+  - Encapsulate configuration - put configuration into distinct logical components. Reduces chance of error. Ex/naming two diff resources the same thing. 
+  - Re-use configuration - share and re-use modules with the public and teams 
+  - Provide consistency and ensure best practices
   
-- Module source options: 
+- **Module source options:**
   - we reference a **Public Registry Module** by declaring the source. 
   ```BASH
    module "consul" {
