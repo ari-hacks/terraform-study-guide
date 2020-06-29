@@ -10,7 +10,7 @@ Study Guide for the Terraform Associate Certification
   - [ ] 3. [Understand Terraform basics](/Objective%203/terraform-basics.md)
   - [x] 4.[Use the Terraform CLI (outside of core workflow)](/Objective%204/terraform-cli.md)
   - [x] 5. [Interact with Terraform modules](/Objective%205/modules.md)
-  - [ ] 6. [Navigate Terraform workflow](/Objective%206/workflow.md)
+  - [x] 6. [Navigate Terraform workflow](/Objective%206/workflow.md)
   - [ ] 7. [Implement and maintain state](/Objective%207/manage-state.md)
   - [ ] 8. [Read, generate, and modify configuration](/Objective%208/hcl-features.md)
   - [x] 9. [Understand Terraform Cloud and Enterprise capabilities](/Objective%209/cloud-and-enterprise.md)

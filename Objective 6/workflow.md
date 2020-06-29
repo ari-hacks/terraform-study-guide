@@ -59,9 +59,16 @@
 
 </details>
 
+#### The next section will go over Terraform Commands 
+For a reference of all commands checkout out this file on [Terraform CLI](https://github.com/ari-hacks/command-line-cheat-sheet/blob/master/terraform.sh)
+
 <details><summary>Initialize a Terraform working directory (terraform init)</summary>
 <p>
-Command: init
+
+  ```terraform init```
+  - prepares working directory for use 
+  - safe to run multiple times to bring the working directory up to date 
+  - it will never delete a configuration or state 
 </p>
 
 </details>
@@ -69,28 +76,41 @@ Command: init
 
 <details><summary>Validate a Terraform configuration (terraform validate)</summary>
 <p>
-Command: validate
+
+```terraform validate```
+- validates the configuration files in the dir, this does not apply t things like remote state or provider APIs
+- validate checks for syntax, internal consistency, such as attribute names and value types 
+- safe to run automatically or as a test step for CI
+- requires initialized working directory  
 </p>
 
 </details>
 
 <details><summary>Generate and review an execution plan for Terraform (terraform plan)</summary>
 <p>
-Command: plan
+
+```Terraform plan```
+- Creates an execution plan, automatically performs a refresh 
 </p>
 
 </details>
 
 <details><summary>Execute changes to infrastructure with Terraform (terraform apply)</summary>
 <p>
-Command: apply
+
+```terraform apply```
+- applies changes needed for the desired state of the configuration 
+- runs set of actions defined by a ```terraform plan``` command 
+  
 </p>
 
 </details>
 
 <details><summary>Destroy Terraform managed infrastructure (terraform destroy)</summary>
 <p>
-Command: destroy
+
+```terraform destroy```
+- completely destroys and terraform created infrastructure
 </p>
 
 </details>
