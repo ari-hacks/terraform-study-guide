@@ -92,14 +92,40 @@ Standard backends
 
 <details><summary>Describe backend block in configuration and best practices for partial configurations	</summary>
 <p>
-Backend Configuration
+
+Backend Config 
+- Backends are configured in the Terraform files.
+- there can only be one backend 
+- This is an example of a config for "consul":
+```BASH
+terraform {
+  backend "consul" {
+    address = "demo.consul.io"
+    scheme  = "https"
+    path    = "example_app/terraform_state"
+  }
+}
+```
+
+Partial Configuration 
+- You can omit certain arguments from the backend configuration. 
+- This is done to avoid storing access keys or private data in the main configuration 
+- adding the omitted arguments must be done during the initialization process by doing the following:
+  - Interactively  - If interact input is enabled it will as you for the required values 
+  - File - ```terraform init -backend-config=PATH``` that contains the variables 
+  - Command-link key/value pairs - ```terraform init -backend-config="KEY=VALUE"``` **This isn't recommended for secret keys since CL flags can be stored in a history file. 
 </p>
 
 </details>
 
 <details><summary>Understand secret management in state files</summary>
 <p>
-Sensitive Data in State
+
+- state contains resource IDs and attributes, db data that may have passwords. 
+- with remote state, state is only in memory when in use. This is more secure 
+- also some backends can encrypt the state data at rest
+- Terraform Cloud encrypts state at rest and protects it with TLS in transit.
+- Terraform Cloud keeps track of user identity, and state changes. 
 </p>
 
 </details>
