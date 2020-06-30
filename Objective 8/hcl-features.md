@@ -73,7 +73,12 @@ resource "vault_generic_secret" "secret"{
 <p>
 
 Complex Types
-- 
+- complex types group values into a single value. 2 types: Collection type(grouping similar values) and Structure types (grouping dissimilar values)
+    Collection Types | Structural Types 
+    ---------|----
+    multiple values of a type can be grouped together. The type of value within a collection is called ```element type``` | multiple values of several types grouped together | 
+    Example:```list(string)```List of string | Example: Object type of ```object({ name=string, age=number })``` would match this value: ```{ name "John" age  = 52 }``` Example of tuple:```["a", 15, true]```|
+    Collection Types:```list()```:Sequence of whole numbers starting at 0  ```map()```:collection of values id'd by a label ```set()```:unique values with no ids or order|  Structural Types: ```object()```:collection of named attributes that have their own type.The schema for object types is ```{ <KEY> = <TYPE>, <KEY> = <TYPE>, ... } ``` and ```tuple()```:sequence of elements id'd by whole numbers, each element has its own type.The schema for tuple types is ```[<TYPE>, <TYPE>, ...]```
 </p>
 
 </details>
