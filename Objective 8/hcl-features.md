@@ -85,7 +85,9 @@ Complex Types
 
 <details><summary>Create and differentiate resource and data configuration</summary>
 <p>
-Resources, Data Sources
+Resources
+
+Data Sources
 </p>
 
 </details>
