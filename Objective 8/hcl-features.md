@@ -85,6 +85,7 @@ Complex Types
 
 <details><summary>Create and differentiate resource and data configuration</summary>
 <p>
+
 Resources
 
 Data Sources
@@ -94,6 +95,7 @@ Data Sources
 
 <details><summary>Use resource addressing and resource parameters to connect resources together</summary>
 <p>
+
 Resource Addressing
 
 References to Named Values
@@ -103,21 +105,28 @@ References to Named Values
 
 <details><summary>Use Terraform built-in functions to write configuration</summary>
 <p>
+
 Built-in Functions
+- Terraform only supports given functions 
+- [List of Functions](https://www.terraform.io/docs/configuration/functions.html)
+- To test functions in the command line run ```terraform console```
 </p>
 
 </details>
 
 <details><summary>Configure resource using a dynamic block</summary>
 <p>
+
 Dynamic Blocks
+- 
 </p>
 
 </details>
 
 <details><summary>Describe built-in dependency management (order of execution based)</summary>
 <p>
-Resource Dependencies
+
+[Resource Dependencies Tutorial](https://learn.hashicorp.com/terraform/getting-started/dependencies)
 </p>
 
 </details>
