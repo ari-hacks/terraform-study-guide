@@ -87,6 +87,7 @@ Complex Types
 <p>
 
 Resources
+- 
 
 Data Sources
 </p>
@@ -118,7 +119,37 @@ Built-in Functions
 <p>
 
 Dynamic Blocks
-- 
+- In top level block constructs(like resources) expressions can be used only when assigning a value to an argument with ```name=expression```
+- Some resource types have repeatable nested blocks in their arguments that don't accept expressions. 
+- Example: 
+  ```BASH
+  resource "aws_elastic_beanstalk_environment"  "tfenvtest" {
+    name = "tf-test-name" # can use expressions here
+    setting {
+        # but the "setting" block is always a       literal block
+    }
+  }
+  ```
+- You can create repeatable nested blocks with the block type ```dynamic```. This is supported with resource,data,provider, and provisioner blocks
+- Example: 
+  ```BASH
+  resource "aws_elastic_beanstalk_environment" "tfenvtest" {
+  name                = "tf-test-name"
+  application         = "${aws_elastic_beanstalk_application.tftest.name}"
+  solution_stack_name = "64bit Amazon Linux 2018.03 v2.11.4 running Go 1.12.6"
+
+  dynamic "setting" {
+    for_each = var.settings
+    content {
+      namespace = setting.value["namespace"]
+      name = setting.value["name"]
+      value = setting.value["value"]
+    }
+  }
+  }
+  ```
+- Dynamic blocks can only produce arguments that belong to the resource type, data source, provider or provisioner being configured. 
+- Overuse of dynamic blocks can get hard to read, it's recommended to use them only to hide details in order to build a clean user interface for re-usability. 
 </p>
 
 </details>
