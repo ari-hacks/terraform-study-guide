@@ -88,10 +88,10 @@ Complex Types
 
 - Code Examples for [Resources](/Terraform%20code%20examples%20/resources.hcl) and [Data Sources](/Terraform%20code%20examples%20/data_sources.hcl)
 
-|            | Syntax | Types and Arguments | Behavior | Meta-Arguments
+|         | Syntax | Types and Arguments | Behavior | Meta-Arguments
 |-----------|---------|----------|-----------|-----
-Resources | | 
-Data Sources  |  | 
+Resources | blocks declare a resource of a given type ```aws_instance``` with a local name ```web```. The local name is used to reference the resource in the module. In the braces ```{}``` config arguments are defined for the resource type. | | |   | |
+Data Sources  |  |  | | |
 
 </p>
 

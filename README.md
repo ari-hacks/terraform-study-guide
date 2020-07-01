@@ -25,3 +25,5 @@ Study Guide for the Terraform Associate Certification
   
   NOTE: Most of this information comes directly from the [Hashicorp website](https://learn.hashicorp.com/terraform/certification/terraform-associate-study-guide) I've compiled the resources here for accessibility and easy review. 🙂
 
+[![Visitors](http://hits.dwyl.com/ari-hacks/ari-hacks/terraform-study-guide.svg)](http://hits.dwyl.com/ari-hacks/ari-hacks/terraform-study-guide)
+
