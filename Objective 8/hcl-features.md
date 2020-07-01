@@ -86,10 +86,13 @@ Complex Types
 <details><summary>Create and differentiate resource and data configuration</summary>
 <p>
 
-Resources
-- 
+- Code Examples for [Resources](/Terraform%20code%20examples%20/resources.hcl) and [Data Sources](/Terraform%20code%20examples%20/data_sources.hcl)
 
-Data Sources
+|            | Syntax | Types and Arguments | Behavior | Meta-Arguments
+|-----------|---------|----------|-----------|-----
+Resources | | 
+Data Sources  |  | 
+
 </p>
 
 </details>
@@ -97,9 +100,7 @@ Data Sources
 <details><summary>Use resource addressing and resource parameters to connect resources together</summary>
 <p>
 
-Resource Addressing
-
-References to Named Values
+[Connecting resources ](/Terraform%20code%20examples%20/resource_addressing.hcl)
 </p>
 
 </details>
