@@ -1,6 +1,7 @@
 # terraform-study-guide
 Study Guide for the Terraform Associate Certification
 
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/ari-hacks/terraform-study-guide/master?style=for-the-badge)
 ## Objectives 
 
   - [x] 1. [Understand Infrastructure as Code (IaC) concepts](/Objective%201%20&%202/Iac.md)
@@ -24,5 +25,4 @@ Study Guide for the Terraform Associate Certification
 - [Sample Questions](/Sample%20Questions%20/Question-Answer.md)
   
   NOTE: Most of this information comes directly from the [Hashicorp website](https://learn.hashicorp.com/terraform/certification/terraform-associate-study-guide) I've compiled the resources here for accessibility and easy review. 🙂
-
 
