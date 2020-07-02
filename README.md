@@ -7,6 +7,9 @@ Study Guide for the Terraform Associate Certification
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/ari-hacks/terraform-study-guide?style=for-the-badge)
 
+[![HitCount](http://hits.dwyl.com/ari-hacks/terraform-study-guide.svg)](http://hits.dwyl.com/ari-hacks/terraform-study-guide)
+
+
 
 ## Objectives 
 
