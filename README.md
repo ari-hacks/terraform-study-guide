@@ -1,7 +1,13 @@
 # terraform-study-guide
 Study Guide for the Terraform Associate Certification
 
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/ari-hacks/terraform-study-guide/master?style=for-the-badge)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/ari-hacks/terraform-study-guide/master?style=for-the-badge) 
+
+![GitHub](https://img.shields.io/github/license/ari-hacks/terraform-study-guide?style=for-the-badge) 
+
+![GitHub repo size](https://img.shields.io/github/repo-size/ari-hacks/terraform-study-guide?style=for-the-badge)
+
+
 ## Objectives 
 
   - [x] 1. [Understand Infrastructure as Code (IaC) concepts](/Objective%201%20&%202/Iac.md)
