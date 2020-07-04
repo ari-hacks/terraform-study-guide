@@ -90,7 +90,7 @@ Complex Types
 
 |         | Syntax | Types and Arguments | Behavior | Meta-Arguments
 |-----------|---------|----------|-----------|-----
-Resources | blocks declare a resource of a given type ```aws_instance``` with a local name ```web```. The local name is used to reference the resource in the module. In the braces ```{}``` config arguments are defined for the resource type. | | |   | |
+Resources | blocks declare a resource of a given type ```aws_instance``` with a local name ```web```. The local name is used to reference the resource in the module. In the braces ```{}``` config arguments are defined for the resource type. |each resource has a single resource type, each type belongs to a provider, body of resource are specific to type  |  |   | |
 Data Sources  |  |  | | |
 
 </p>
