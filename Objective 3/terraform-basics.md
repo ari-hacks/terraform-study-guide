@@ -121,18 +121,21 @@
 
 <details><summary>Describe how Terraform finds and fetches providers</summary>
 
+- Resource types are defined by providers 
+- Provider configuration is created with a provider block, the provider name is the name in the block header
+- When a new provider is added Terraform has to initialize it before its used with the ```terraform init``` command. This downloads and installs the providers plugin
 
 
 </details>
 
 <details><summary>Explain when to use and not use provisioners and when to use local-exec or remote-exec</summary>
 
-<details><summary>Provisioners are a Last Resort</summary>
-<p>
+Provisioners are a Last Resort
+- Use Provisioner 
+- When to use local-exec 
+- When to use remote-exec
 
-</p>
 
-</details>
 </details>
 
 -------------------------------
