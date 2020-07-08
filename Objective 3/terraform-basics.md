@@ -130,10 +130,14 @@
 
 <details><summary>Explain when to use and not use provisioners and when to use local-exec or remote-exec</summary>
 
- Provisioners are a Last Resort
- - Use Provisioner 
- - When to use local-exec 
- - When to use remote-exec
+ -  Provisioners - provisioners are used to model specific actions on the local machine or on a remote machine to prepare infrastructure objects  
+ - Provisioners are there if needed but they add complexity and uncertainty (should only be used as a last result)
+ - Provisioners should be used if no other option will work.
+ - Use cases:
+   - Passing data into virtual machines and other compute resources 
+   - running config management software 
+ - local-exec - invokes a local executable after the resource is created. Invokes a process on the machine not on the resource. 
+ - remote-exec - invokes a script on a remote resource after it is created. 
 
 
 </details>
