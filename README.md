@@ -1,4 +1,4 @@
-![Alt text](/tf-logo.png?)
+![Alt text](/tf-logo.png)
 
 
 # terraform-study-guide
