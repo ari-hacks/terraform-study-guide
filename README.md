@@ -1,5 +1,5 @@
-![Alt text](/tf-logo.png)
 
+<img align="center" src="tf-logo.png">
 
 # terraform-study-guide
 Study Guide for the Terraform Associate Certification
