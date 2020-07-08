@@ -19,8 +19,8 @@ Study Guide for the Terraform Associate Certification
   - [x] 5. [Interact with Terraform modules](/Objective%205/modules.md)
   - [x] 6. [Navigate Terraform workflow](/Objective%206/workflow.md)
   - [x] 7. [Implement and maintain state](/Objective%207/manage-state.md)
-  - [ ] 8. [Read, generate, and modify configuration](/Objective%208/hcl-features.md)
-  - [x] 9. [Understand Terraform Cloud and Enterprise capabilities](/Objective%209/cloud-and-enterprise.md)
+  - [x] 8. [Read, generate, and modify configuration](/Objective%208/hcl-features.md)
+  - [x] 9. [Undersstand Terraform Cloud and Enterprise capabilities](/Objective%209/cloud-and-enterprise.md)
  
 -------------------------------
 

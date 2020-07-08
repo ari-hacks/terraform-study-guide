@@ -5,8 +5,8 @@
 
 <p>
 
-[HashiCorp Terraform Tutorial](https://learn.hashicorp.com/terraform?track=getting-started#getting-started)
-- This tutorial  goes through the process of Installing Terraform and provider installation and versioning 
+   - [HashiCorp Terraform Tutorial](https://learn.hashicorp.com/terraform?track=getting-started#getting-started)
+   - This tutorial  goes through the process of Installing Terraform and provider installation and versioning 
 </p>
 
 ------------------------------
@@ -114,7 +114,7 @@
 
 <details><summary>Demonstrate using multiple providers</summary>
 
-[Build Infrastructure– Providers](/https://learn.hashicorp.com/terraform/getting-started/build#providers)
+- [Build Infrastructure– Providers](/https://learn.hashicorp.com/terraform/getting-started/build#providers)
 
 </details>
 </details>
@@ -130,10 +130,10 @@
 
 <details><summary>Explain when to use and not use provisioners and when to use local-exec or remote-exec</summary>
 
-Provisioners are a Last Resort
-- Use Provisioner 
-- When to use local-exec 
-- When to use remote-exec
+ Provisioners are a Last Resort
+ - Use Provisioner 
+ - When to use local-exec 
+ - When to use remote-exec
 
 
 </details>
