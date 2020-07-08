@@ -90,7 +90,7 @@ Complex Types
 
 |         | Syntax | Types and Arguments | Behavior | Meta-Arguments
 |-----------|---------|----------|-----------|-----
-Resources | blocks declare a resource of a given type ```aws_instance``` with a local name ```web```. The local name is used to reference the resource in the module. In the braces ```{}``` config arguments are defined for the resource type. |each resource has a single resource type, each type belongs to a provider, body of resource are specific to type  |  |   | |
+Resources | blocks declare a resource of a given type ```aws_instance``` with a local name ```web```. The local name is used to reference the resource in the module. In the braces ```{}``` config arguments are defined for the resource type. |each resource has a single resource type, each type belongs to a provider, body of resource are specific to type  | when you create a new resource it only exists in the configuration until you ```apply``` it. When its created it is saved in state, and can be updated or destroyed  |Each resource is associated with a single resource type, which determines the kind of infrastructure object it manages and what arguments and other attributes the resource supports  | Resource behavior can be changed with the use of [meta-arguments](https://www.terraform.io/docs/configuration/resources.html)  |
 Data Sources  |  |  | | |
 
 </p>
