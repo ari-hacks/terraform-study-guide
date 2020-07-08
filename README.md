@@ -1,3 +1,6 @@
+![Alt text](/tf-logo.png?)
+
+
 # terraform-study-guide
 Study Guide for the Terraform Associate Certification
 
