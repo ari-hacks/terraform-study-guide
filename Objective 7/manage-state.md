@@ -70,11 +70,11 @@ State Locking
 <details><summary>Describe remote state storage mechanisms and supported standard backends</summary>
 <p>
 
-Remote State Storage 
+**Remote State Storage**
 - Uses Terraform Cloud as a backend, allows free remote state management 
 - [Tutorial for Remote State Storage](https://learn.hashicorp.com/terraform/getting-started/remote)
 
-Standard backends 
+**Standard backends** 
 - artifactory,azurerm,consul,cos,etcd,etcdv3,gcs,http,manta,oss,pg,s3,swift,terraform enterprise
 </p>
 
