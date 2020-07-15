@@ -24,7 +24,7 @@ terraform taint
 - Marks a resource as tainted, forcing it to be destroyed and recreated on the next apply.
 - It does not modify infrastructure but does modify the state file 
 - After a resource is marked the next plan shows it will be destroyed and recreated on the next apply 
-- Useful when we want a die effect of a recreation that is not visible in the attributes of the resource. For ex/rebooting the machine from a base image causing a new startup script to run.
+- Useful when we want a side effect of a recreation that is not visible in the attributes of the resource. For ex/rebooting the machine from a base image causing a new startup script to run.
 - This command can affect resources that depend on the tainted resource. Ex/ DNS resource that uses IP of a server, that resource might need to be updated with the new IP of a tainted server. 
 - Examples: 
   ```BASH
