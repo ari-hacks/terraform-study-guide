@@ -6,7 +6,7 @@
 <p>
 
    - [HashiCorp Terraform Tutorial](https://learn.hashicorp.com/terraform?track=getting-started#getting-started)
-   - This tutorial  goes through the process of Installing Terraform and provider installation and versioning 
+   - This tutorial  goes through the process of installing Terraform and provider installation and versioning 
 </p>
 
 ------------------------------
@@ -28,7 +28,9 @@
     #The google provider is assumed to be the provider for the resource type named google_compute_instance
     ```
   - configuration arguments like project and region are evaluated in order
-  - meta-arguments for provider blocks" <code>version - to specify a version </code> and <code>alias - to use same provider with different config for different resources</code> 
+  - 2 meta-arguments available for provider blocks: 
+    - <code>version - to specify a version </code> and 
+    - <code>alias - to use same provider with different config for different resources</code> 
   - provider blocks are not required if not explicitly configured Tf uses an empty default config when a resource from the provider is added
 - **Initialization**
   - when a new provider is added to configuration Tf has to initialize the provider before it can be used
