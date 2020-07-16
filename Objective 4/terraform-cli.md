@@ -91,7 +91,8 @@ terraform workspace new
 - Persistent data in the backend belongs to a workspace. 
 - Creating different workspaces is useful to manage different stages of deployment (sandbox or production)
 - At first the backend only has one workspace 'default'. This workspace cannot be deleted. 
--  Certain backends can support multiple named workspaces. Allows multiple states to be associated with a single configuration. Config still only has one backend with more than one instance of that config 
+- Certain backends can support multiple named workspaces. This allows multiple states to be associated with a single configuration. 
+- Config still only has one backend with more than one instance of that config 
 -  Backends that support multiple workspaces:
    -  AzureRM
    -  Consul
@@ -124,7 +125,8 @@ terraform workspace new
 terraform state 
 ```
 - Used for advanced state management 
-- nested subcommand (has more subcommands) 
+- Used instead of changing state directly 
+- this is a nested subcommand (has more subcommands) 
   - [Resource Addressing](https://www.terraform.io/docs/commands/state/addressing.html) 
   - [list](https://www.terraform.io/docs/commands/state/list.html)
   - [mv](https://www.terraform.io/docs/commands/state/mv.html)
