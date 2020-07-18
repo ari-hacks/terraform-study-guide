@@ -20,7 +20,7 @@
    #<NAMESPACE>/<NAME>/<PROVIDER>
    source = "hashicorp/consul/aws"
    version = "0.1.0"
-  }
+   }
   ```
   - **Private Registry Module** Sources follow this syntax 
   ```BASH
@@ -47,7 +47,7 @@
 
 - variables are parameters for modules 
 - variables allow us to customize modules without changing the source code and they allow for modules to be shared between different configurations. 
-- root module variables can be set with CLI and environment variables
+- root module variables can be set with CLI and environment variables.
 - When declaring variables in child modules, the calling module should pass values in the module block. 
 - **Declaring a variable:**
 - variable names have to be unique per module 
@@ -61,7 +61,7 @@
   validation {
     condition     = length(var.image_id) > 4 && substr(var.image_id, 0, 4) == "ami-"
     error_message = "The image_id value must be a valid AMI id, starting with \"ami-\"."
-  }
+     }
   #validation rules are experimental - uses value of variable to return true or false
   }
 
@@ -70,7 +70,6 @@
   default = ["us-west-1a"]  
   #default means the variable is considered optional, used if no other value is set  when calling the module or running Terraform
   description = "variable description, purpose and value expected"
-
    }
 
   variable "docker_ports" {
@@ -78,7 +77,7 @@
     internal = number
     external = number
     protocol = string
-  }))
+    }))
 
   default = [
     {
@@ -86,7 +85,7 @@
       external = 8300
       protocol = "tcp"
     }
-  ]
+   ]
   } 
   #---------------------
   #To use validation we need to opt in 
@@ -99,7 +98,7 @@
     resource "aws_instance" "example" {
     instance_type = "t2.micro"
     ami  = var.image_id #expression reads var.<NAME> name is the label declared on the variable
-  }
+    }
   ```
 - Set root module variables 1) In Terraform Cloud Workspace 2) Individual CLI with ```-var``` 3) In ```.tfvars``` file 4) As environment variable
 - child modules have variables set in the configuration of the parent module  
@@ -126,8 +125,8 @@
     version = "0.0.5"  #single explicit version 
     #or
     version = >= 1.2.0  #version constraint expression 
-  servers = 3
-  }
+    servers = 3
+   }
   ```
 
 </p>
