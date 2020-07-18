@@ -145,8 +145,8 @@ Dynamic Blocks
       namespace = setting.value["namespace"]
       name = setting.value["name"]
       value = setting.value["value"]
-    }
-  }
+     }
+   }
   }
   ```
 - Dynamic blocks can only produce arguments that belong to the resource type, data source, provider or provisioner being configured. 

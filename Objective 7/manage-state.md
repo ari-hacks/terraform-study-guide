@@ -5,7 +5,7 @@
 <p>
 
 - **Backends** - by default Terraform uses 'local' backend
-  - This is an abstraction that determines how state is loaded and how an operation is execution. It allows such actions as non-local file state storage and remote execution 
+  - This is an abstraction that determines how state is loaded and how an operation is executed. It allows such actions as non-local file state storage and remote execution 
   - Benefits:
     - Working in a team - can store state remotely and use locks to prevent corruption in state 
     - Keeping sensitive information off disk - state in backends are only stored in memory 
@@ -15,7 +15,7 @@
     terraform {
         backend "local" {
         path = "relative/path/to/terraform.tfstate"
-    }
+      }
     }
   ```
 </p>
@@ -111,7 +111,7 @@ Partial Configuration
 - You can omit certain arguments from the backend configuration. 
 - This is done to avoid storing access keys or private data in the main configuration 
 - adding the omitted arguments must be done during the initialization process by doing the following:
-  - Interactively  - If interact input is enabled it will as you for the required values 
+  - Interactively  - If interact input is enabled it will ask you for the required values 
   - File - ```terraform init -backend-config=PATH``` that contains the variables 
   - Command-link key/value pairs - ```terraform init -backend-config="KEY=VALUE"``` **This isn't recommended for secret keys since CL flags can be stored in a history file. 
 </p>

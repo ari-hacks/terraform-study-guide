@@ -31,7 +31,7 @@
     Switched to a new branch <branch-name>
    ``` 
 - **Teams** can review changes via Terraform plans and pull requests 
-- Terraform cloud helps streamline this process in a team setting
+- **Terraform cloud** helps streamline this process in a team setting
   - Write - secure location for storing variables and state with the "remote" backend, then a Terraform Cloud API key is used to edit the configuration and run plans against the state file.
   ```BASH
     terraform {
@@ -78,7 +78,7 @@ For a reference of all commands checkout out this file on [Terraform CLI](https:
 <p>
 
 ```terraform validate```
-- validates the configuration files in the dir, this does not apply t things like remote state or provider APIs
+- validates the configuration files in the dir, this does not apply to things like remote state or provider APIs
 - validate checks for syntax, internal consistency, such as attribute names and value types 
 - safe to run automatically or as a test step for CI
 - requires initialized working directory  
