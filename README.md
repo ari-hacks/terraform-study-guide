@@ -36,6 +36,7 @@ Study Guide for the Terraform Associate Certification
 - [Terraform Cloud Interactive Learning](https://www.katacoda.com/hashicorp/scenarios/terraform-cloud)
 - [Exam Review](https://learn.hashicorp.com/terraform/certification/terraform-associate-review)
 - [Sample Questions](/Sample%20Questions%20/Question-Answer.md)
+- [Terraform Registry - find modules for deploying common infra](https://registry.terraform.io/)
   
   NOTE: Most of this information comes directly from the [Hashicorp website](https://learn.hashicorp.com/terraform/certification/terraform-associate-study-guide) I've compiled the resources here for accessibility and easy review. 🙂
 
