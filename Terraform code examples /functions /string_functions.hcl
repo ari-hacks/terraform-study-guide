@@ -1,6 +1,7 @@
 #######
-# String Functions 
+#String Functions 
 #######
+
 #chomp 
 
 #format 
