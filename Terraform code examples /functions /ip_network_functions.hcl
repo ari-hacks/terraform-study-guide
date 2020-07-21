@@ -11,7 +11,6 @@ cidrhost("10.12.127.0/20", 268)
 cidrhost("fd00:fd12:3456:7890:00a2::/72", 34)
 #fd00:fd12:3456:7890::22
 
-
 #cidrnetmask converts an IPv4 address prefix given in CIDR notation into a subnet mask address.
 cidrnetmask(prefix)
 cidrnetmask("172.16.0.0/12")
