@@ -111,6 +111,7 @@ Data Sources  |A data source is accessed via a special kind of resource known as
 Built-in Functions
 - Terraform only supports given functions 
 - [List of Functions](https://www.terraform.io/docs/configuration/functions.html)
+- This can also be viewed in the repo [here](/Terraform/functions/)
 - To test functions in the command line run ```terraform console```
 </p>
 
