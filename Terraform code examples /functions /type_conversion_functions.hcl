@@ -41,17 +41,86 @@ tobool(1)
 #Invalid value for "v" parameter: cannot convert number to bool.
 
 
-#tolist 
+#tolist converts its argument to a list
+#use explicit coversion functions only to normalize types returned in module outpus
+#pass a set value to tolist to convert it to a list
+tolist(["a", "b", "c"])
+[
+  "a",
+  "b",
+  "c",
+]
 
+tolist(["a", "b", 3])
+[
+  "a",
+  "b",
+  "3", #mixed-typed elements convert to the most general type 
+]
 
+#tomap converts it argument to a map value
+tomap({"a" = 1, "b" = 2})
+{
+  "a" = 1
+  "b" = 2
+}
+tomap({"a" = "foo", "b" = true})
+{
+  "a" = "foo"
+  "b" = "true"
+}
 
-#tomap
+#tonumber converts its argument to a number value
+tonumber(1)
+#1
+tonumber("1")
+#1
+tonumber("no")
+#Error: Invalid function argument
+#Invalid value for "v" parameter: cannot convert "no" to number: string must be
+#a decimal representation of a number.
 
-#tonumber  
+#toset converts its argument to a set value
+toset(["a", "b", "c"])
+[
+  "a",
+  "b",
+  "c",
+]
 
-#toset  
+toset(["a", "b", 3])
+[
+  "a",
+  "b",
+  "3",
+]
 
-#tostring  
+toset(["c", "b", "b"]) #set collections are unorderes and can't contain duplicate values
+[
+  "b",
+  "c",
+]
 
-#try 
+#tostring converts its argument to a string value
+#Only the primitive types (string, number, and bool) can be converted to string. All other values will produce an error.
+tostring("hello")
+#hello
+tostring(1)
+#1
+tostring(true)
+#true
+tostring([])
+#Error: Invalid function argument
+#Invalid value for "v" parameter: cannot convert tuple to string.
+
+#try evaluates all of its argument expressions in turn and returns the result of the first one that does not produce any errors.
+local.foo
+{
+  "bar" = "baz"
+}
+try(local.foo.bar, "fallback")
+baz
+try(local.foo.boop, "fallback")
+fallback
+
 
