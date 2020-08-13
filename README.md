@@ -1,8 +1,8 @@
 
 <img align="center" src="tf-logo.png">
 
-# terraform-study-guide
-Study Guide for the Terraform Associate Certification
+# Terraform Study Guide
+Study Guide for the Terraform Associate Certification 2020
 
 <img align="left" src="https://img.shields.io/github/last-commit/ari-hacks/terraform-study-guide/master?style=for-the-badge">
 
