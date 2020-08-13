@@ -31,14 +31,15 @@ Study Guide for the Terraform Associate Certification
  - [ ] Add HCL examples   
 -------------------------------
 
-## Additional Info 
+## Additional Hashicorp Resources
 - The exam will be on Terraform 0.12.0 and higher. 
 - [Exam Review](https://learn.hashicorp.com/terraform/certification/terraform-associate-review)
 - [Sample Questions](/Sample%20Questions%20/Question-Answer.md)
 - [Official Study Guide](https://learn.hashicorp.com/tutorials/terraform/associate-study)
+- [Lab Tutorials](https://learn.hashicorp.com/tutorials/terraform/infrastructure-as-code?in=terraform/aws-get-started)
 - [Terraform Registry - find modules for deploying common infra](https://registry.terraform.io/)
   
-## Additional Resources
+## Additional External Resources
 - [General Terraform Best Practices](https://www.terraform-best-practices.com/)
 - [Terraform Cloud Interactive Learning](https://www.katacoda.com/hashicorp/scenarios/terraform-cloud)
 - Practice Exams 
