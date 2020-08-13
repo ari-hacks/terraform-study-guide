@@ -33,10 +33,14 @@ Study Guide for the Terraform Associate Certification
 
 ## Additional Info 
 - The exam will be on Terraform 0.12.0 and higher. 
-- [Terraform Cloud Interactive Learning](https://www.katacoda.com/hashicorp/scenarios/terraform-cloud)
 - [Exam Review](https://learn.hashicorp.com/terraform/certification/terraform-associate-review)
 - [Sample Questions](/Sample%20Questions%20/Question-Answer.md)
 - [Terraform Registry - find modules for deploying common infra](https://registry.terraform.io/)
   
-  NOTE: Most of this information comes directly from the [Hashicorp website](https://learn.hashicorp.com/terraform/certification/terraform-associate-study-guide) I've compiled the resources here for accessibility and easy review. 🙂
+## Additional Resources
+- [General Terraform Best Practices](https://www.terraform-best-practices.com/)
+- [Terraform Cloud Interactive Learning](https://www.katacoda.com/hashicorp/scenarios/terraform-cloud)
+- [Practice Exams](https://www.udemy.com/course/hashicorp-certified-terraform-associate-2020-practice-exam/)
 
+
+  NOTE: Most of this information comes directly from the [Hashicorp website](https://learn.hashicorp.com/terraform/certification/terraform-associate-study-guide) I've compiled the resources here for accessibility and easy review. 🙂
