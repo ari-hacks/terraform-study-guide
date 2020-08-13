@@ -40,7 +40,10 @@ Study Guide for the Terraform Associate Certification
 ## Additional Resources
 - [General Terraform Best Practices](https://www.terraform-best-practices.com/)
 - [Terraform Cloud Interactive Learning](https://www.katacoda.com/hashicorp/scenarios/terraform-cloud)
-- [Practice Exams](https://www.udemy.com/course/hashicorp-certified-terraform-associate-2020-practice-exam/)
+- Practice Exams 
+  - [Udemy](https://www.udemy.com/course/hashicorp-certified-terraform-associate-2020-practice-exam/)
+  - [Medium](https://medium.com/bb-tutorials-and-thoughts/250-practice-questions-for-terraform-associate-certification-7a3ccebe6a1a)
+  - [Youtube overview of the exam and practice questions](https://www.youtube.com/watch?v=vhZEdqlXlSs&list=PL5VXZTK6spA2HF5Kf0rI9RDRHF9Hopffr)
 
 
   NOTE: Most of this information comes directly from the [Hashicorp website](https://learn.hashicorp.com/terraform/certification/terraform-associate-study-guide) I've compiled the resources here for accessibility and easy review. 🙂
