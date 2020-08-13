@@ -48,4 +48,4 @@ Study Guide for the Terraform Associate Certification
   - [Youtube overview of the exam and practice questions](https://www.youtube.com/watch?v=vhZEdqlXlSs&list=PL5VXZTK6spA2HF5Kf0rI9RDRHF9Hopffr)
 
 
-  NOTE: Most of this information comes directly from the [Hashicorp website](https://learn.hashicorp.com/terraform/certification/terraform-associate-study-guide) I've compiled the resources here for accessibility and easy review. 🙂
+  NOTE: Most of this information comes directly from the [Hashicorp website](https://learn.hashicorp.com/terraform/certification/terraform-associate-study-guide) I've compiled the resources here for accessibility and easy review. 🙂 If you find this study guide useful please give it a 🌟 and check back for updates! 
