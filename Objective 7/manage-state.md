@@ -85,7 +85,7 @@ State Locking
 
 - ```terraform refresh```
 - reconciles the state Terraform knows about via the state file. 
-- refresh does not modify the infrastructure, it modifies the state file. 
+- refresh does not modify the infrastructure, it does modify the state file. 
 </p>
 
 </details>
