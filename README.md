@@ -35,6 +35,7 @@ Study Guide for the Terraform Associate Certification
 - The exam will be on Terraform 0.12.0 and higher. 
 - [Exam Review](https://learn.hashicorp.com/terraform/certification/terraform-associate-review)
 - [Sample Questions](/Sample%20Questions%20/Question-Answer.md)
+- [Official Study Guide](https://learn.hashicorp.com/tutorials/terraform/associate-study)
 - [Terraform Registry - find modules for deploying common infra](https://registry.terraform.io/)
   
 ## Additional Resources
