@@ -38,7 +38,7 @@ Study Guide for the Terraform Associate Certification 2020
 - [Official Study Guide](https://learn.hashicorp.com/tutorials/terraform/associate-study)
 - [Lab Tutorials](https://learn.hashicorp.com/tutorials/terraform/infrastructure-as-code?in=terraform/aws-get-started)
 - [Terraform Registry - find modules for deploying common infra](https://registry.terraform.io/)
-- [Pricing and Feature pdf](/tf-feature-table.pdf) or [View on the webiste](https://www.hashicorp.com/products/terraform/pricing/)
+- [Terraform feature pdf](/tf-feature-table.pdf) or [View on the webiste](https://www.hashicorp.com/products/terraform/pricing/)
   
 ## Additional External Resources
 - [General Terraform Best Practices](https://www.terraform-best-practices.com/)

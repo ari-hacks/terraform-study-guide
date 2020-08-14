@@ -49,7 +49,7 @@ The benefits of being provider-agnostic means there can be a single configuratio
   ex. `resource "aws_instance" "foo"`  Tf knows the instance i-abcd34233 is represented by that resource. 
 - **Metadata**
   - Tf tracks metadata or resource dependencies 
-  - Tf keeps a copy of the most recent set of dependencies in state. So that correct oder of operations can be executed even if an item is deleted from the configuration. 
+  - Tf keeps a copy of the most recent set of dependencies in state. So that correct order of operations can be executed even if an item is deleted from the configuration. 
 - **Performance** 
   - besides basic mapping Tf also keeps a cache of attribute values for all resources in the state. 
   - most optional feature of state, only used to improve performance. 
@@ -64,7 +64,8 @@ The benefits of being provider-agnostic means there can be a single configuratio
 <details><summary>IaC with Terraform</summary>
 
 <p>
-At a high level, Terraform allows operators to use HCL to author files containing definitions of their desired resources on almost any provider (AWS, GCP, GitHub, Docker, etc) and automates the creation of those resources at the time of apply.
+
+At a high level, Terraform allows operators to use HCL to author files containing definitions of their desired resources on almost any provider (AWS, GCP, GitHub, Docker, [etc](https://www.terraform.io/docs/providers/index.html)) and automates the creation of those resources at the time of apply.
 </p>
 
 - **Workflows** 

@@ -14,7 +14,7 @@
 <details><summary>Providers</summary>
 
 
-- The primary construct of the Terraform language are `recourses`, the `behaviors` of resources rely on the resource `types`, resource types are defined by `providers`. 
+- The primary construct of the Terraform language are `resources`, the `behaviors` of resources rely on the resource `types`, resource types are defined by `providers`. 
 - Providers have a set of resource types that defines which arguments are accepted, what attributes it exports, and how changes are applied to APIs. 
 - Providers require their own configuration for regions, authentication etc. 
 - **Configuration** 
