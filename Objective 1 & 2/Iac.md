@@ -46,7 +46,7 @@ The benefits of being provider-agnostic means there can be a single configuratio
   
 - **Mapping to the Real World** 
   - Terraform requires a database to map Tf(Terraform) config to the real world. 
-  ex. `resource "aws_instance" "foo"`  Tf knows the instance i-abcd34233 is represented by that resource. 
+  ex. With state mapping Tf knows resource `resource "aws_instance" "foo"`  represents instance `i-abcd34233`. 
 - **Metadata**
   - Tf tracks metadata or resource dependencies 
   - Tf keeps a copy of the most recent set of dependencies in state. So that correct order of operations can be executed even if an item is deleted from the configuration. 
