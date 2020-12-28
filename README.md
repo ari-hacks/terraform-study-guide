@@ -28,7 +28,7 @@ Study Guide for the Terraform Associate Certification 2020
 
 ## TODO 
  - [ ] Review and format 
- - [ ] Add HCL examples   
+ - [ ] Add HCL examples
 -------------------------------
 
 ## Additional Hashicorp Resources
@@ -41,6 +41,7 @@ Study Guide for the Terraform Associate Certification 2020
 - [Terraform feature pdf](/tf-feature-table.pdf) or [View on the webiste](https://www.hashicorp.com/products/terraform/pricing/)
   
 ## Additional External Resources
+- 🗣  Coming Soon! 🌟 [Anki Flashcards](/) 🌟
 - [General Terraform Best Practices](https://www.terraform-best-practices.com/)
 - [Terraform Cloud Interactive Learning](https://www.katacoda.com/hashicorp/scenarios/terraform-cloud)
 - Practice Exams 
