@@ -46,7 +46,7 @@ Study Guide for the Terraform Associate Certification 2020
 - [Terraform Cloud Interactive Learning](https://www.katacoda.com/courses/terraform)
 - [A Cloud Guru Terraform Cheatsheet](https://res.cloudinary.com/acloud-guru/image/fetch/c_thumb,f_auto,q_auto/https://acg-wordpress-content-production.s3.us-west-2.amazonaws.com/app/uploads/2020/11/terraform-cheatsheet-from-ACG.pdf)
 - Practice Exams 
-  - [Udemy](https://www.udemy.com/course/hashicorp-certified-terraform-associate-2020-practice-exam/)
+  - <s>[Udemy](https://www.udemy.com/course/hashicorp-certified-terraform-associate-2020-practice-exam/)</s>
   - [Medium](https://medium.com/bb-tutorials-and-thoughts/250-practice-questions-for-terraform-associate-certification-7a3ccebe6a1a)
   - [Youtube overview of the exam and practice questions](https://www.youtube.com/watch?v=vhZEdqlXlSs&list=PL5VXZTK6spA2HF5Kf0rI9RDRHF9Hopffr)
 
